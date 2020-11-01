@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Marco Nel - CV</title>
+
+<style>
+
+
+ .profilePicture{
+	/*background-color:red;*/
+	text-align:center;
+	padding: 5px;
+ }
+ 
+ .fitSize{
+	height: 50%;
+	width: 50%;
+	
+ }
+
+
+ .middle{
+	display: flex;
+ }
+ 
+ .tooltip {
+	  position: relative;
+	  display: inline-block;
+	  border-bottom: 1px dotted black;
+ }
+
+ .tooltip .tooltiptext {
+	   visibility: hidden;
+	   width: 250px;
+	   background-color: black;
+	   color: #fff;
+	   text-align: center;
+	   border-radius: 6px;
+	   padding: 5px 0;
+	 
+	   /* Position the tooltip */
+	   position: absolute;
+	   z-index: 1;
+ }
+
+ .tooltip:hover .tooltiptext {
+   visibility: visible;
+ }
+ 
+
+ .left{
+	background-color: #868649;
+	width:30%;
+	border-right: 1px solid;
+ }
+ 
+ .contactInfoSpan{
+	font-size: 13px;
+ 
+ }
+
+ .smallHeight{
+	padding-top:5px;
+ }
+ 
+ .right{
+	 background-color: teal;
+	 padding: 5px;
+	 width: 70%;
+ }
+ 
+ p{
+    font-size: 11px;
+ }
+ 
+ .moveSligthyLeft{
+	margin-left: -17px;
+ }
+ 
+ .pHeader{
+    font-size: 13px;
+	font-weight: bold;
+	text-decoration: underline;
+ }
+ 
+ .bulletPointText{
+	font-size: 11px;
+	margin-top:-1px;
+ }
+ 
+ .bulletPointText li{
+
+	margin-left:-17px;
+ }
+ 
+ .row{
+	display:flex;
+ }
+
+ 
+ 
+ .contactInfo{
+	padding-left:5px;
+ 
+ }
+ 
+</style>
+</head>
+
+<body>
+
+
+
+
+	<div class="middle">
+		<div class="left">
+			<div class="profilePicture">
+				<img class="fitSize" src="./profilePicture.png"/>
+			</div>
+
+			<br/>
+			<div class="contactInfo">
+				<span class="contactInfoSpan">
+					<div class="row">
+						<div><b>Full name:</b></div>
+						<div>Marco Willem Nel</div>
+					</div>
+				</span>
+				<span class="contactInfoSpan">
+					<div class="row">
+						<div><b>Birthdate:</b></div>
+						<div>1996-05-27</div>
+					</div>	
+				</span>
+				<span class="contactInfoSpan">
+					<div class="row">
+						<div><b>Age:</b></div>
+						<div id="ageField">23</div>
+					</div>	
+				</span>
+				<span class="contactInfoSpan">
+					<div class="row">
+						<div><b>Contact:</b></div>
+						<div>0711413348</div>
+					</div>	
+				</span>
+				<span class="contactInfoSpan">
+					<div class="row">
+						<div><b>Email:</b></div>
+						<div>epos.marco@gmail.com</div>
+					</div>	
+				</span>
+				
+				<div class="smallHeight"></div>
+				
+				<span class="contactInfoSpan">
+					<b>Languages</b>: 
+					<ul style="margin-top:-1px;margin-left: -17px;">
+						<li>English </li>
+						<li>Afrikaans</li>				
+					</ul>
+				</span>
+			
+
+				<span class="contactInfoSpan">
+					<b>References:</b> <br/>
+					<p>
+					
+					XYZXZ : 07dasd7897 (sales) <br/>
+					ZXKCJKLZXJ : 0775sd57 (previous manager) <br/>
+					</p>
+				</span>
+				<br/>
+			</div>
+		</div>
+		<br/>
+		<div class="right">
+				<span class="pHeader"> Who am I?</span>
+		
+				<p>
+					I am a hardworking, self-motivated individual, always striving to complete tasks or jobs on time and as close
+					to perfection as possible.
+					I have strong moral values and always try to improve myself and seek new challenges. I also love working
+					with other team members and assist where I can, but I have no problem working alone. 
+				</p>
+				
+				<span class="pHeader">Education?</span>
+
+				<ul class="bulletPointText" style="margin-top:-1px">
+					<li>Highschool df malan </li>
+					<li>CTI : higher certification</li>				
+				</ul>
+				
+				<span class="pHeader">Work expierince?</span>
+				<ul class="bulletPointText">
+					<li>Programmer</li>
+					<div class="moveSligthyLeft">
+						<div class="row">
+							<div>Dates Employed: </div>
+							<div>Jan 2016 – Jan 2019</div>
+						</div>
+						<div class="row">
+							<div>Employment Duration: </div>
+							<div>3 yrs 1 mo</div>
+						</div>
+						<div class="row">
+							<div>Location: </div>
+							<div>Technopark Stellenbosch</div>
+						</div>
+					</div>
+					</br>
+		
+					<li>Developer</li>	
+					<div class="moveSligthyLeft">
+						<div class="row">
+							<div>Dates Employed: </div>
+							<div>Jan 2019 – Present</div>
+						</div>
+						<div class="row">
+							<div>Employment Duration: </div>
+							<div>1 yr 11 mos</div>
+						</div>
+						<div class="row">
+							<div>Location: </div>
+							<div>Stellenbosch</div>
+						</div>
+					</div>					
+
+				</ul>
+				
+				<span class="pHeader">Top skills?</span>
+				<ul class="bulletPointText">
+					<li>Java </li>
+					<li>Spring</li>
+					<li>Quick learner and curious</li>
+				</ul>
+				
+				<span class="pHeader">Secondary skills?</span>
+				<ul class="bulletPointText">
+					<div class="tooltip">
+						<li>Git</li>
+						<div class="tooltiptext">
+							We use git as our version control at Capitec and I am very comfortable using it. I have assisted with
+							releasing code to production and making sure branches are not contaminated with the code from
+							others, as well as resolving merge conflicts.
+						</div>
+					</div>
+					<br/>
+					<div class="tooltip">
+						<li>SQL</li>
+						<div class="tooltiptext">
+							I am familiar with SQL and using it at work. I am no expert in it but I have knowledge on how to use it.
+							I have setup index's and analysed execution plans and optimized queries.
+						</div>
+					</div>
+					<br/>
+					<div class="tooltip">
+						<li>SOAP</li>
+						<div class="tooltiptext">
+							I mainly used SOAP for internal service’s and integrating thereof.
+						</div>
+					</div>
+					<br/>
+					<div class="tooltip">
+						<li>Yaml,SWAGGER,REST</li>
+						<div class="tooltiptext">
+							I have helped set up contracts for our services, generate interfaces/classes from
+							contracts and integrating it with systems. I understand the basics of REST standards and how it should
+							be applied. 
+						</div>
+					</div>
+					<br/>
+					<div class="tooltip">
+						<li>HTML,CSS,Javascript</li>
+						<div class="tooltiptext">
+							I am familiar with JavaScript; however, I am not as practised with it as my Java
+							skillset. I can setup basic functionality like frontend validation, build screens in HTML and style it with
+							CSS.
+						</div>
+					</div>
+					<br/>
+					<div class="tooltip">
+						<li>Agile</li>
+						<div class="tooltiptext">
+							I have a fundamental understanding of how agile works for example: creating stories, sizing it and
+							delivering stories in a sprint. Also I understand how agile cermonies work.
+						</div>
+					</div>
+					<br/>
+					<div class="tooltip">
+						<li>Waterfall</li>
+						<div class="tooltiptext">
+							 I have not worked in waterfall methodology at all, but I understand the concept. 
+						</div>
+					</div>
+					<br/>
+					<div class="tooltip">
+						<li>Junit,Mockito</li>
+						<div class="tooltiptext">
+							We used junit.org as our testing framework and I am very comfortable using it. In the projects I
+							worked with I had setup multiple integration test and unit tests. I also made sure that these tests
+							provided good code coverage. While using good testing practices.
+						</div>
+					</div>
+					
+				</ul>
+				<br/>
+			</div>
+		</div>
+	</div>
+	
+
+	
+
+
+</body>
+
+</html>
+<script>
+
+
+	// Calculates current age
+	let age = (new Date().getFullYear()-1996);
+	
+	//Set the age field with correct details
+	document.getElementById("ageField").innerHTML = age;
+
+
+
+</script>
+
